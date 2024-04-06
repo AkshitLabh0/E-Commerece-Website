@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ecommerce Website With Payment</title>
+
+    <!-- Link To CSS -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Box Icons --> <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+        <div class="nav container">
+<a href="#" class="logo">Ecommerce</a>
+<i class="bx bx-shopping-bag" id="cart-icon" data-quantity="3"></i>
+<div class="cart">
+    <h2 class="cart-title">Your Cart</h2>
+    <div class="cart-content"></div>
+   
+    <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0</div>
+    </div>
+    <button type="button" class="btn-buy">Pay Now</button>
+
+    <i class="bx bx-x" id="close-cart"></i>
+</div>
+        </div>
+    </header>
+    <!-- Products -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+         <!--shop Content-->
+        <div class="shop-content">
+            <!--Box 1-->
+            <div class="product-box">
+                 <!--Stripe need images that are on online on Local server it will not show in stripe checkout page we have to upload online-->
+               <img src="img\product1.jpeg " alt="" class="product-img"/>
+               <h2 class="product-title" >ADICOLOR SEASONAL</h2>
+               <span class="price">$50</span>
+               <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <div class="product-box">
+               
+               <img src="img\product2.jpeg" alt="" class="product-img"/>
+               <h2 class="product-title" >SATURDAY BACKPACK</h2>
+               <span class="price">$53.0</span>
+               <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <div class="product-box">
+              
+               <img src="img\product3.jpeg" alt="" class="product-img"/>
+               <h2 class="product-title" >Ultimate Hat</h2>
+               <span class="price">$44.0</span>
+               <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <div class="product-box">
+                
+               <img src="img\product4.jpeg" alt="" class="product-img"/>
+               <h2 class="product-title" >MESSI GOAT TEE</h2>
+               <span class="price">$53</span>
+               <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <div class="product-box">
+             
+               <img src="img\product5.jpeg" alt="" class="product-img"/>
+               <h2 class="product-title" >ADICOLOR HOODIE</h2>
+               <span class="price">$77.40</span>
+               <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+               <div class="product-box">
+                
+               <img src="img\product6.jpeg" alt="" class="product-img"/>
+               <h2 class="product-title" >ADIDAS EARBUDS</h2>
+               <span class="price">$67.0</span>
+               <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+               <div class="product-box">
+             
+               <img src="img\product7.jpeg" alt="" class="product-img"/>
+               <h2 class="product-title" >METAL BOTTLE 1L</h2>
+               <span class="price">$77.4</span>
+               <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <div class="product-box">
+                
+               <img src="img\product8.jpeg" alt="" class="product-img"/>
+               <h2 class="product-title" >ULTRABOOST SHOES</h2>
+               <span class="price">$66.5</span>
+               <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+          
+            
+            
+        </div>
+    </section>
+
+    <!-- link to js -->
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
